@@ -1,0 +1,364 @@
+
+
+body{
+
+
+
+}
+#right{
+    text-align: right;
+}
+
+@font-face {
+    font-family: Cocon;
+    src: url('../fonts/CoconNextArabic-Regular.otf');
+
+
+
+}
+body,h1,h2,h3,h4,h5,h6,p{
+
+    direction: rtl;
+    font-family: cocon;
+
+}
+
+body{
+
+
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+.bg-light{
+
+    height:auto;
+    width: 100%;
+    box-shadow: 10px 5px 10px -5px rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+
+    margin: 10px;
+}
+.navbar-light .navbar-nav .nav-link{
+
+
+    color: dimgray;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+
+
+    color: dimgray;
+}
+
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+
+
+    color: #825d6f;
+}
+#ond{
+
+    margin: 5px;
+}
+.logo img{
+
+    width: 120px;
+    height: 100%;
+}
+.header{
+
+    background-image: url(images/manufacturing_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 35px;
+
+
+
+}
+.home{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+
+.btn-danger{
+
+    color: #fff;
+    background-color: deepskyblue;
+    border-color:  deepskyblue;
+    transition: 0.4s ease;
+}
+
+.btn-danger:hover{
+
+    color: #fff;
+    background-color: #825d6f;
+    border-color:  #825d6f;
+}
+/*.btn-danger :active{
+
+color: #fff;
+background-color:  #825d6f;
+border-color:  #825d6f;
+}*/
+.figure-caption{
+
+
+
+}
+{
+
+}
+
+.about-premedi{
+
+
+    text-align: right;
+    margin-top: -15px;
+    padding-bottom: 15px;
+
+}
+.hdd{
+
+    padding:50px;
+    margin-top: 30px;
+
+}
+
+.onee{
+    border: 2px solid  deepskyblue;
+    width: 20%;
+}
+
+
+h1{
+
+
+    font-weight: bolder;
+}
+
+h5{
+    margin-top: 10px;
+    padding: 15px;
+}
+#jk{
+
+    padding-top: 20px;          }
+
+#services{
+    background-color:#825d6f;
+    padding: 40px;
+    margin-top:40px;
+    color: white;
+
+}
+
+/* .footer{
+
+
+      background-color: #404040;
+      color: white;
+padding: 15px;
+      width: 100%;
+      height: 100%;
+
+
+
+  }*/
+
+.footer{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #404040;
+
+    color: white;
+
+
+
+
+}
+.footer a{
+
+    color:  deepskyblue;
+
+
+    transition: 0.3s;
+}
+
+.footer a:hover{
+
+    color:#825d6f;
+}
+
+
+#products a{
+
+
+    color:dimgray;
+    transition: 0.2s ease;
+}
+#products a:hover{
+
+    color:deepskyblue;
+
+    text-decoration: none;
+}
+
+#products a:hover {
+
+    text-decoration: none;
+}
+#products {
+
+
+    color:dimgray;
+}
+.social .fa{
+
+    background-color: white;
+    width: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 2px;
+    transition: 0.7s;
+
+
+}
+.social .fa:hover{
+
+    transform: rotate(360deg);
+
+}
+.fa-facebook{
+
+    color: #4267b2;
+}
+.fa-twitter{
+
+    color:deepskyblue;
+}
+
+.fa-youtube-play{
+
+    color: red;
+}
+
+.hh{
+
+    margin: 35px;
+}
+#products{
+
+    padding: 40px;
+    margin-top:40px;
+
+}
+
+.wnge{
+
+    border: 2px solid deepskyblue;
+    width: 20%;
+
+}
+
+.gallery{
+
+    background-color:#825d6f;
+    padding: 40px;
+    margin-top:40px;
+    color: white;
+
+
+}
+
+.gallery h1{
+    color: white;
+}
+
+.onee2{
+    border: 2px solid  white;
+    width: 20%;
+}
+
+
+.copyright{
+}
+.figure-caption{
+    position: absolute;
+    top: -350px;
+    width: 100%;
+    padding-top: 35px;
+    margin-bottom: 30px;
+}
+/*
+          .carousel fade {
+          .carousel-inner {
+          {
+              transition-property: opacity;
+          }
+
+
+
+*/
+@media only screen and (max-width:500px){
+
+    .figure-caption p{
+        font-size: 10px;
+
+
+    }
+
+
+
+
+}
+
+.bot{
+
+    margin-top: 70px;
+}
+.l{
+    margin-top: 25px;
+}
+#hidd{
+    display: none;
+}
+
+
+.btn-danger1{
+
+    color: #fff;
+    background-color: #825d6f;
+    border-color:  #825d6f;
+}
+
+.hds{
+    padding:60px;
+    margin-top: 30px;
+    background-image: url("../images/palstic.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 45px;
+    margin-bottom:50px ;
+    text-align: center;
+}
+
+.hds h1{
+
+    font-size: 40px;
+}
+
